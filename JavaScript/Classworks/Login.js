@@ -1,4 +1,4 @@
 const login = {username: "admin", password: "1234"};
+status = ((login.username === "admin") && (login.password === "1234")) ? status = "Login success" : status = "Invalid credentials"
 
-const _ = ((login.username === "admin") && (login.password === "1234")) ? console.log("Login success") : console.log("Invalid credentials")
-
+console.log(status)
