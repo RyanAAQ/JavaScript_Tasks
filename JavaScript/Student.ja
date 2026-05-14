@@ -1,0 +1,4 @@
+const destructure = (employee) => {
+
+    const {name, salary} = employee;
+        return {name, salary};
